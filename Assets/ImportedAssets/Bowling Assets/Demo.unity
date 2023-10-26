@@ -1120,7 +1120,7 @@ MonoBehaviour:
   arrowMinPosition: -0.5
   arrowMaxPosition: 0.5
   throwingArrow: {fileID: 1258287128}
-  ball: {fileID: 8711703576910550755}
+  ballSpawnPoint: {fileID: 8711703576910550755}
   throwForce: 5
   throwingArrowAnim: {fileID: 1814562194}
   balls:
@@ -2961,7 +2961,7 @@ PrefabInstance:
     - target: {fileID: 2843497252807716072, guid: 72abd974373c49544b860ab08c17db31,
         type: 3}
       propertyPath: m_Name
-      value: Ball
+      value: BallSpawnPoint
       objectReference: {fileID: 0}
     - target: {fileID: 8326104917293849871, guid: 72abd974373c49544b860ab08c17db31,
         type: 3}
@@ -3013,7 +3013,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2457863305007051342, guid: 72abd974373c49544b860ab08c17db31, type: 3}
+    - {fileID: 6709412336934693498, guid: 72abd974373c49544b860ab08c17db31, type: 3}
+    - {fileID: 3525800239561250610, guid: 72abd974373c49544b860ab08c17db31, type: 3}
+    - {fileID: 1370219380039975328, guid: 72abd974373c49544b860ab08c17db31, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
