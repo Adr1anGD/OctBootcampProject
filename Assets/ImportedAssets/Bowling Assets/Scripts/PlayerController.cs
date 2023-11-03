@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour
     public Transform ballSpawnPoint;
     public float throwForce = 5.0f;
     public Animator throwingArrowAnim;
-
     public Rigidbody[] balls;
 
     private float horizontalInput;
@@ -69,7 +68,7 @@ public class PlayerController : MonoBehaviour
                 throwingArrow.position.z
                 );
             //Set Ball Position based on Throwing Direction Position
-            selectedBall.position = throwingArrow.position + ballOffset;
+            selectedBall.transform.position = throwingArrow.position + ballOffset;
         }
     }
 
